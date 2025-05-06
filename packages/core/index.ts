@@ -1,5 +1,6 @@
 import { makeInstaller } from "@candycat-design/utils";
 import components from "./components";
+import "@candycat-design/theme/index.css";
 
 const installer = makeInstaller(components);
 

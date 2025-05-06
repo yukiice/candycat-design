@@ -4,7 +4,10 @@
 	"description": "Candycat Design",
 	"main": "index.ts",
 	"scripts": {
-		"dev": "pnpm --filter @candycat-design/play dev"
+		"dev": "pnpm --filter @candycat-design/play dev",
+		"docs:dev": "pnpm --filter @candycat-design/docs dev",
+		"docs:build": "pnpm --filter @candycat-design/docs build",
+		"docs:preview": "pnpm --filter @candycat-design/docs preview"
 	},
 	"license": "MIT",
 	"devDependencies": {

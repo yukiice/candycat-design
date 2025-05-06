@@ -42,4 +42,5 @@ Thumbs.db
 *.log
 *.pid
 *.seed
-*.pid.lock 
+*.pid.lock
+*.vitepress
